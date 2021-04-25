@@ -50,6 +50,8 @@ class App extends React.Component {
             <button onClick={this.changeName} className="btn btn-outline-info m-2">Change Name</button>
           </div>
         </div>
+
+        <Footer />
       </div>
       );
   }
@@ -60,6 +62,14 @@ class Header extends React.Component {
   render(){
     return(
       <div>Header</div>
+    );
+  }
+}
+
+class Footer extends React.Component {
+  render(){
+    return(
+      <div>Footer</div>
     );
   }
 }

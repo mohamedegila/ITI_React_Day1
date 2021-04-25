@@ -33,6 +33,7 @@ class App extends React.Component {
   render(){
     return (
       <div>   
+        <Header />
         <div className="container">
           <div>
             <span className="m-2">Counter</span>
@@ -53,6 +54,14 @@ class App extends React.Component {
       );
   }
 
+}
+
+class Header extends React.Component {
+  render(){
+    return(
+      <div>Header</div>
+    );
+  }
 }
 
 export default App;
